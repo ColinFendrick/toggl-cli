@@ -31,12 +31,28 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`toggl-cli add`](#toggl-cli-add)
 * [`toggl-cli hello`](#toggl-cli-hello)
 * [`toggl-cli help [COMMAND]`](#toggl-cli-help-command)
 
-## `toggl-cli hello`
+## `toggl-cli add`
 
 Describe the command here
+
+```
+USAGE
+  $ toggl-cli add
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/add.js](https://github.com/ColinFendrick/toggl-cli/blob/v0.0.0/src/commands/add.js)_
+
 
 ```
 USAGE
